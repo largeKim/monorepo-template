@@ -1,9 +1,9 @@
 {
-  "name": "example-react-ts",
+  "name": "@mono-repo/admin-web-module",
   "private": true,
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "storybook": "start-storybook --port 6007",
     "build-storybook": "build-storybook",

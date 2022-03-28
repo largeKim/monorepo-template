@@ -1,19 +1,17 @@
-/** @jsx h */
-import { h } from 'preact';
-
 import { Page } from './Page';
 import * as HeaderStories from './Header.stories';
+import { ComponentMeta, ComponentStory } from '@storybook/react';
 
-export default {
+const meta: ComponentMeta<typeof Page> = {
   title: 'Example/Page',
   component: Page,
 };
+export default meta;
 
-const Template = (args) => <Page {...args} />;
+const Template: ComponentStory<typeof Page> = (args) => <Page {...args} />;
 
 export const LoggedIn = Template.bind({});
 LoggedIn.args = {
-  // More on composing args: https://storybook.js.org/docs/preact/writing-stories/args#args-composition
   ...HeaderStories.LoggedIn.args,
 };
 

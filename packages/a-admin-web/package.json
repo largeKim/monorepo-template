@@ -8,7 +8,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@mono-repo/admin-web-module": "*",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },

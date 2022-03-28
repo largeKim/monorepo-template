@@ -2144,6 +2144,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mono-repo/admin-web-module@workspace:packages/admin-web-module":
+  version: 0.0.0-use.local
+  resolution: "@mono-repo/admin-web-module@workspace:packages/admin-web-module"
+  dependencies:
+    "@storybook/addon-a11y": ^6.5.0-alpha.49
+    "@storybook/addon-docs": ^6.5.0-alpha.49
+    "@storybook/addon-essentials": ^6.5.0-alpha.49
+    "@storybook/react": ^6.5.0-alpha.49
+    "@storybook/test-runner": ^0.0.4
+    http-server: ^14.1.0
+    jest: ^27.5.1
+    npm-run-all: ^4.1.5
+    react: ^16.4.14
+    react-dom: ^16.4.14
+    storybook-builder-vite: ^0.1.21
+    typescript: ^4.5.4
+    vite: 2.9.0-beta.8
+    wait-on: ^6.0.1
+  languageName: unknown
+  linkType: soft
+
 "@mrmlnc/readdir-enhanced@npm:^2.2.1":
   version: 2.2.1
   resolution: "@mrmlnc/readdir-enhanced@npm:2.2.1"
@@ -7960,27 +7981,6 @@ __metadata:
   checksum: ad4e1577f1a6b721c7800dcc7c733fe01f6c310732bb5bf2240245c2a5b45a38518b91d8be2c610611623160b9d1c0e91f1ce96d639f8b53e8894625cf20fa45
   languageName: node
   linkType: hard
-
-"example-react-ts@workspace:packages/admin-web-module":
-  version: 0.0.0-use.local
-  resolution: "example-react-ts@workspace:packages/admin-web-module"
-  dependencies:
-    "@storybook/addon-a11y": ^6.5.0-alpha.49
-    "@storybook/addon-docs": ^6.5.0-alpha.49
-    "@storybook/addon-essentials": ^6.5.0-alpha.49
-    "@storybook/react": ^6.5.0-alpha.49
-    "@storybook/test-runner": ^0.0.4
-    http-server: ^14.1.0
-    jest: ^27.5.1
-    npm-run-all: ^4.1.5
-    react: ^16.4.14
-    react-dom: ^16.4.14
-    storybook-builder-vite: ^0.1.21
-    typescript: ^4.5.4
-    vite: 2.9.0-beta.8
-    wait-on: ^6.0.1
-  languageName: unknown
-  linkType: soft
 
 "exec-sh@npm:^0.3.2":
   version: 0.3.6

@@ -2144,7 +2144,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mono-repo/admin-web-module@workspace:packages/admin-web-module":
+"@mono-repo/admin-web-module@*, @mono-repo/admin-web-module@workspace:packages/admin-web-module":
   version: 0.0.0-use.local
   resolution: "@mono-repo/admin-web-module@workspace:packages/admin-web-module"
   dependencies:
@@ -4388,6 +4388,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "a-admin-web@workspace:packages/a-admin-web"
   dependencies:
+    "@mono-repo/admin-web-module": "*"
     "@types/react": ^17.0.33
     "@types/react-dom": ^17.0.10
     "@vitejs/plugin-react": ^1.0.7

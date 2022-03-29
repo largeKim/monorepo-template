@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import {Task} from '@mono-repo/admin-web-module';
 import logo from './logo.svg'
 import './App.css'
 
@@ -10,6 +11,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>
+        <Task task={{id:1,title:'taskTitle',state:'complete'}} onArchiveTask={()=>{}} onPinTask={()=>{}}/>
         <p>
           <button type="button" onClick={() => setCount((count) => count + 1)}>
             count is: {count}

@@ -5,6 +5,7 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
+    "build": "tsc",
     "storybook": "start-storybook --port 6007",
     "build-storybook": "build-storybook",
     "preview-storybook": "http-server storybook-static --port 6007 --silent",
